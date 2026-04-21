@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#container{
+    width: 900px;
+    margin: auto;
+    background-color: black ;
+    padding 20px;
+}
+
+#header{
+    text-align: center;
+
+}
+
+#nav-bar{
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+#nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#nav-bar a:hover{
+    color: red;
+    transform: scale(1.2);
+
+}
+
+#content{
+    text-align: left;
+
+}
+
+img{        
+    max-width: 100%;
+
+}
+.cast-img{
+    height: 80px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.movie{
+    margin-bottom: 30px;
+
+}
+
+.character{
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+#container{
+    animation: fadeIn 1.5s ease-in;
+
+}
+
+@keyframes fadeIn{
+    from{ opacity: 0; }
+    to { opacity: 0; }
+
+}
+
+img:hover{
+    transform:scale(1.1);
+    transition: .3s;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+hr{border: 1px solid gray;}
+
+ul{
+    text-align: left;
+}
